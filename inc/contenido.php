@@ -26,7 +26,7 @@
 				<!--<p><a class="btn btn-default" href="#" role="button">Ver Site &raquo;</a></p>-->
 			</div>
 			<div class="col-xs-12 col-sm-3">
-				<a href="http://www.orizorca.com.ve/" target="_blank"><span class="img"><img class="img-thumbnail img-responsive camcolor tamano_ima" src="img/Imagen-Orizorca.jpg" alt="Orizorca" title="Orizorca"></span></a>
+				<a href="http://www.orizorca.com.ve/" target="_blank"><span class="img"><img class="img-thumbnail img-responsive camcolor tamano_ima" src="img/Imagen-Orizorca.jpg" alt="Industrias Orizorca" title="Industrias Orizorca"></span></a>
 				<!--<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>-->
 			</div>
 			<div class="clearfix"></div>
@@ -280,6 +280,7 @@
            	<h4><strong>Casas de Repuestos en <?php echo $res3['nombre_estado'];?>						
            	</strong></h4>
             
+            <!--ZONA DE CASAS DE REPUESTOS-->
             <div class="busca-respu col-md-12 col-lg-10">
             	<img src="<?php echo $res3['logo_small'];?>">
 							<span>SUREPUESTO CAGUA</span><br>
@@ -287,7 +288,7 @@
 							<button type="button" class="btn btn-default btn-xs" data-toggle="modal" data-target="#myModal">Visitar</button>
           	</div><br>
            
-            
+                <!--ZONA DE CASAS DE REPUESTOS BTN VISITAR-->
                 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                   <div class="modal-dialog">
                     <div class="modal-content">
@@ -323,10 +324,20 @@
             <button type="button" class="btn btn-default">Casas de Repuesto Caracas</button><br><br>
             <button type="button" class="btn btn-default">Casas de Repuesto Los Teques</button>-->
           </div>
+          
+          <!--ZONA DE RESPUESTA DEL REPUESTO-->
           <div class="col-sm-7">
-            <div class="col-sm-7 img-thumbnail">
-                <div><?php echo "<img class='img-responsive' src='images/".$res2['img_producto']."' uploaded/>";?></div>
+            <div class="col-sm-7 ">
+                <div class="img-thumbnail">
+                  <?php echo "<img class='img-responsive' src='images/".$res2['img_producto']."' uploaded/>";?></div>
+                <div class="text-center" id="btn-busqueda">
+                  <button type="reset" class="btn btn-default"><a href="vehiculos_v2.php">
+                    <span class="glyphicon glyphicon-arrow-left"></span>Atras</a>
+                  </button>
+                </div>
             </div>
+            
+            
             <!--<div class="col-sm-4">
                 <?php echo "<input type='text' class='form-control text-center' disabled value='".$res1['nombre_marca']."' />"; ?><br>
                 <?php echo "<input type='text' class='form-control text-center' disabled value='".$res1['Nombre_modelo']."' />"; ?><br>
@@ -334,12 +345,30 @@
                 <?php echo "<input type='text' class='form-control text-center' disabled value='".$res1['nombre_categoria']."' />"; ?>
             </div>
           </div>-->
+          
           </div><br>
+          
 
         </div><!--Fin row-->
       </div><!--Fin container-->
       <?php
-		}
+			/*****************************************************
+			*****************PAGINA-ERROR.PHP*********************
+			*****************************************************/
+			} else if ($pagina == "pagina-error.php") { ?>
+        <div class="row">
+          <div class="col-xs-6 col-xs-offset-3">
+            <div class="text-center">
+              <h2>No se encuentra su producto</h2>
+              <img src="img/alert_97381.jpg" /><br><br>
+                <div class="text-center" id="btn-busqueda">
+                  <button type="reset" class="btn btn-default"><a href="vehiculos_v2.php"><span class="glyphicon glyphicon-arrow-left"></span>Atras</a></button>
+                </div>
+            </div><br>
+          </div><!--Fin Contenido--><!--Fin row-->
+      </div><!--Fin container-->
+      <?php
+      }
 ?>
 		      
 		

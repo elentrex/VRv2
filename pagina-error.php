@@ -10,11 +10,12 @@
   <body>
     <!-- Wrap all page content here -->
     <div id="wrap">
-      <?php include 'inc/barra_menu.php'; ?>
-      
-      Error
-				
-    </div><!--Fin wrap-->
+    <?php include 'inc/barra_menu.php'; ?>
+    
+    <?php include 'inc/cabecera.php'; ?>
+
+    <?php include 'inc/contenido.php'; ?>
+    </div>
 
     <?php include 'inc/footer.php'; ?>
     <?php include 'inc/footer_common.php'; ?>

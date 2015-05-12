@@ -1,0 +1,244 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+*{
+	font-family: 'Open Sans', sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+h1{
+  margin: 10px 0;
+  /*margin-top: 70px;*/
+}
+
+/*LOGO*/
+.logo{
+  background: url(../img/logo21b.png) no-repeat;
+  background-size: 100% 100%;
+  height: 50px;
+  margin-top: 10px;
+  width: 150px;/*250*/
+}
+
+.logo a{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.logo a > span{
+  display: none;
+}
+/*FIN DEL LOGO*/
+
+/*Seccion Titulo
+.secciontituloo{
+  margin-top: 150px;
+}*/
+
+.secciontitu{
+  margin-top: -40px;
+  font-size: 11px;
+}
+
+.secciontitu button{
+  margin-right: 10px;
+}
+/**/
+
+/*container-fluid
+.row, row > h1{
+	padding:0px;
+	margin:0px;	
+	font-family: Georgia, "Times New Roman", Times, serif;
+}*/
+
+.btn{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+/**/
+
+/*Manejo de imagenes*/
+.img img{
+  margin-top: 5px;
+  max-width: 100%;
+}
+
+.img-cen img{
+  margin-top: 80px;
+  max-width: 100%;
+  /*height: 190px;*/
+}
+
+.img-icon img{
+  margin-top: 10px;
+  width: 30px;
+  height: 30px;
+  float: left;
+}
+
+.img-icon img h2,
+.img-icon img h2 img{
+  float: left;
+}
+
+.espa-pub p{  
+  background-color: rgba(0,0,0,0.1);
+  border-radius: 5px;
+  
+  height: 230px;
+  padding-top: 100px;
+  text-align: center;
+  
+  width: 100%;
+  
+}
+
+/*Imagen de quienes somos*/
+.img-quienes{
+  margin-bottom: 30px;
+}
+
+/*.enlace{
+  padding-top: 10px;
+}*/
+
+.enlace a{
+  text-decoration: none;
+}
+
+.opcion-busca{
+	text-align: center;
+}
+
+	.opcion-busca a{
+		text-decoration: none;
+		font-size: 2rem;
+		color: #000;
+	}
+
+	.opcion-busca a:hover{
+		text-decoration: none;
+	}
+
+.camcolor{
+	height: 201px;
+}
+
+	.camcolor:hover{
+		background-color: #d9534f;
+	}
+
+.nav li span{
+  padding-right: 5px;
+}
+
+.tamano_ima{
+  height: 206px;
+  width: 226px;
+}
+
+.formulario h2{
+  background-color: rgba(0,0,0,0.1);
+  margin: 10px 5px 10px 5px;
+}
+
+.formulario{
+  border:2px solid #000;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+#inputEmail3:hover{
+  
+}
+
+.img-circle{
+  max-width: 150px;
+}
+
+
+/*Informacion contacto*/
+.info-contacto h3{
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.info-contacto p{
+  margin-top: -10px;
+  font-size: 1em;
+  font-style: italic;
+}
+/*boton para nueva busqueda*/
+.nuevabusqueda{
+  
+}
+
+/*Boton de busqueda*/
+#btn-busqueda button span{
+  margin-right: 5px;
+}
+
+#btn-busqueda button a{
+  text-decoration: none;
+  color: black;
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -80px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+  height: 80px;
+  background-color: #222222;
+	margin-bottom: 0;
+	
+	bottom: 0;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+#wrap > .container {
+  /*espacio entre el header y el contenido*/
+  padding: 40px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+#footer > .container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+/*****************************************************
+****************RESPUESTA.php*************************
+******************************************************/
+
+.busca-respu img{
+	padding-right: 5px;
+	float: left;
+	width: 100px;
+}
+

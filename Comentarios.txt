@@ -1,0 +1,7 @@
+26/08 Se cambio el tamaño de las imagenes del index.php (Style.css)
+
+26/08 Se subio el cambio realizado de selecciona tu vehiculo a selecciona el repuesto (buscatu.php)
+
+26/08 Se modifico la botonera de busqueda (vehiculo_v2.php)
+
+26/08 Realizando el formulario con validacion (formulario.php, valida.php, validacion.js)

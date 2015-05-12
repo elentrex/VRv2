@@ -3,18 +3,18 @@
 /*********************************
 ***********LOCAL**************/ 
 
-/*$db_host="localhost";
+$db_host="localhost";
 $db_username="root";
 $db_password="";
-$db_database="vr";*/
+$db_database="vr";
 
 /*********************************
 ***********SERVIDOR**************/ 
 
-$db_host="localhost";
+/*$db_host="localhost";
 $db_username="venezolr_vr_usu";
 $db_password="Pass@2015";
-$db_database="venezolr_vr";
+$db_database="venezolr_vr";*/
 
 
 $conexion=mysql_connect($db_host, $db_username, $db_password);

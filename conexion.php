@@ -1,9 +1,20 @@
 <?php
 
-$db_host="localhost";//Nombre del Servidor
-$db_username="root";//Nombre del usuario
-$db_password="";//Contraseña de la BD
-$db_database="vr";//Nombre de la BD
+/*********************************
+***********LOCAL**************/ 
+
+/*$db_host="localhost";
+$db_username="root";
+$db_password="";
+$db_database="vr";*/
+
+/*********************************
+***********SERVIDOR**************/ 
+
+$db_host="localhost";
+$db_username="venezolr_vr_usu";
+$db_password="Pass@2015";
+$db_database="venezolr_vr";
 
 
 $conexion=mysql_connect($db_host, $db_username, $db_password);

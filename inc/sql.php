@@ -8,6 +8,7 @@ $categoria=$_POST['categoria'];
 $estado=$_POST['estado'];
 
 
+
 //Consulta de producto
 $sql= "SELECT id_producto FROM producto
 WHERE id_marca =".$marca."
@@ -36,28 +37,26 @@ if (mysql_num_rows($rs) != 0) {
   $rs2= mysql_query($sql2);
   
   $res2 = mysql_fetch_assoc($rs2);
-  
+
   //Consulta para las tiendas
-  $sql3= "SELECT nom_tienda, logo_small, logo_grande, nombre_estado, nombre_ciudad 
+  $sql3= "SELECT nom_tienda, logo_small, logo_grande, nombre_estado 
   FROM producto_tienda PT
   JOIN tienda T ON T.id_tienda = PT.id_tienda
   JOIN logo L ON L.id_logo = T.id_logo
   JOIN estado E ON E.id_estado = T.id_estado
-  JOIN ciudad C ON C.id_ciudad = T.id_ciudad
   WHERE PT.id_producto=".$res['id_producto']." AND T.id_tienda=PT.id_tienda AND T.id_estado=".$estado."";
-  $rs3= mysql_query($sql3) ;
+  $rs3= mysql_query($sql3);
   
   $res3 = mysql_fetch_assoc($rs3);
-  
+
   //Consulta para la imagen de la tienda
-  $sql4= "SELECT nom_tienda, logo_small, logo_grande, nombre_estado, nombre_ciudad
+  $sql4= "SELECT nom_tienda, logo_small, logo_grande, nombre_estado
   FROM producto_tienda PT
   JOIN tienda T ON T.id_tienda = PT.id_tienda
   JOIN logo L ON L.id_logo = T.id_logo
   JOIN estado E ON E.id_estado = T.id_estado
-  JOIN ciudad C ON C.id_ciudad = T.id_ciudad
   WHERE PT.id_producto=".$res['id_producto']."";
-  $rs4= mysql_query($sql4) ;
+  $rs4= mysql_query($sql4);
   
   $res4 = mysql_fetch_assoc($rs4);
   

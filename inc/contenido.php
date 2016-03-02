@@ -9,9 +9,10 @@
 				<!--<a href="buscatu.html" target="_blank"><p class="text-center lead">BUSCA TU REPUESTO AQUI</p></a>-->            
 				<a href="buscatu.php" target="_blank"><button type="button" class="btn btn-lg btn-danger btn-group btn-group-justified form-control">BUSCA TU REPUESTO AQUI</button></a>
 			</div>
-			<div class="clearfix"></div>
+			<div class="clearfix"></div><br>
 			<div class="col-xs-12 col-sm-6 col-sm-push-3"><!--Imagen Vehiculo--> 
-					<span class="img-cen camcolor"><img src="img/Pontiac_gto.png"></span>
+					<!--<span class="img-cen camcolor"><img start="fileopen" dynsrc="video/Video_motor_tecnologia.mp4"></span>-->
+                    <video src="video/Video_motor_tecnologia.mp4" width="550" controls></video>
 			</div>
 			<div class="col-xs-12 col-sm-3 col-sm-pull-6">
 				<a href="http://www.toyota.com.ve" target="_blank"><span class="img"><img class="img-thumbnail img-responsive camcolor tamano_ima" src="img/Toyota-logo2.jpg" alt="Toyota" title="Toyota"></span></a>

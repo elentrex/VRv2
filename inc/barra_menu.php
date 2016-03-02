@@ -25,6 +25,7 @@
         <li><a href="quienes.php"><span class="glyphicon glyphicon-user"></span> Quienes Somos</a></li>
         <li><a href="afiliacion.php"><span class="glyphicon glyphicon-usd"></span> Afiliación</a></li>
         <li><a href="tienda.php"><span class="glyphicon glyphicon-shopping-cart"></span> Tienda</a></li>
+        <li><a href="contacto.php"><span class="glyphicon glyphicon-earphone"></span> Contacto</a></li>
         <li class="dropdown">
         <?php											
 				}
@@ -33,6 +34,7 @@
         <li class="active"><a href="quienes.php"><span class="glyphicon glyphicon-user"></span> Quienes Somos</a></li>
         <li><a href="afiliacion.php"><span class="glyphicon glyphicon-usd"></span> Afiliación</a></li>
         <li><a href="tienda.php"><span class="glyphicon glyphicon-shopping-cart"></span> Tienda</a></li>
+        <li><a href="contacto.php"><span class="glyphicon glyphicon-earphone"></span> Contacto</a></li>
         <li class="dropdown">
         <?php											
 				}
@@ -41,6 +43,7 @@
         <li><a href="quienes.php"><span class="glyphicon glyphicon-user"></span> Quienes Somos</a></li>
         <li class="active"><a href="afiliacion.php"><span class="glyphicon glyphicon-usd"></span> Afiliación</a></li>
         <li><a href="tienda.php"><span class="glyphicon glyphicon-shopping-cart"></span> Tienda</a></li>
+        <li><a href="contacto.php"><span class="glyphicon glyphicon-earphone"></span> Contacto</a></li>
         <li class="dropdown">
         <?php											
 				}
@@ -49,6 +52,16 @@
         <li><a href="quienes.php"><span class="glyphicon glyphicon-user"></span> Quienes Somos</a></li>
         <li><a href="afiliacion.php"><span class="glyphicon glyphicon-usd"></span> Afiliación</a></li>
         <li class="active"><a href="tienda.php"><span class="glyphicon glyphicon-shopping-cart"></span> Tienda</a></li>
+        <li><a href="contacto.php"><span class="glyphicon glyphicon-earphone"></span> Contacto</a></li>
+        <li class="dropdown">
+        <?php											
+				}
+				else if ($pagina == "contacto.php") { ?>
+       	<li><a href="index.php"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+        <li><a href="quienes.php"><span class="glyphicon glyphicon-user"></span> Quienes Somos</a></li>
+        <li><a href="afiliacion.php"><span class="glyphicon glyphicon-usd"></span> Afiliación</a></li>
+        <li><a href="tienda.php"><span class="glyphicon glyphicon-shopping-cart"></span> Tienda</a></li>
+        <li class="active"><a href="contacto.php"><span class="glyphicon glyphicon-earphone"></span> Contacto</a></li>
         <li class="dropdown">
         <?php											
 				}
@@ -57,6 +70,7 @@
         <li><a href="quienes.php"><span class="glyphicon glyphicon-user"></span> Quienes Somos</a></li>
         <li><a href="afiliacion.php"><span class="glyphicon glyphicon-usd"></span> Afiliación</a></li>
         <li><a href="tienda.php"><span class="glyphicon glyphicon-shopping-cart"></span> Tienda</a></li>
+        <li><a href="contacto.php"><span class="glyphicon glyphicon-earphone"></span> Contacto</a></li>
         <li class="dropdown active">  
         <?php } ?>      
           <a href="buscatu.php" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-list"></span> Otras Busquedas <b class="caret"></b></a>

@@ -22,5 +22,5 @@ function validacion(){
 	};*/
 
 	alert("Se realizo exitosamente su registro");
-	location.href="http://localhost/VRv2/index.php";
+	location.href="../VRv2.3/index.php";
 }

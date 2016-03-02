@@ -15,7 +15,7 @@ mysql_query("INSERT INTO afiliacion (nombre_afiliacion, email_afiliacion, telefo
 mysql_close();
 ?>
 
-<script type="text/javascript">
+<!--<script type="text/javascript">
 	alert("La afiliacion fue exitosa");
-	location.href="../index.php";
-</script>
+	location.href="../Sitios/VR/Version/V2.3/index.php";
+</script>-->

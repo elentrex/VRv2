@@ -17,17 +17,17 @@ $mensaje.= "\ncapacidad: ". $_POST['captn'];
 $mensaje.= "\ncorreo: ". $_POST['email'];
 */
 
-$mensaje = "Topico: ". $_POST['topico'];
-$mensaje.= "\nDe: ". $_POST['nombrecompleto'];
-$mensaje.= "\nEmpresa: ". $_POST['empresa'];
+$mensaje = "De: ". $_POST['nombre'];
+$mensaje.= "\nRif: ". $_POST['rif'];
+$mensaje.= "\nCorreo: ". $_POST['email'];
+$mensaje.= "\nDireccion: ". $_POST['direccion'];
 $mensaje.= "\nTelefono: ". $_POST['telefono'];
-$mensaje.= "\nCorreo: ". $_POST['correo'];
-$mensaje.= "\nMensaje: ". $_POST['mensaje'];
+$mensaje.= "\nPaginaWeb: ". $_POST['paginaweb'];
 
 //Nuestro Correo
 
 $destino = "info@venezolanaderepuestos.com.ve";
-$remitente = $_POST['correo'];
+$remitente = $_POST['email'];
 $asunto = "Afiliacion de VDR";
 mail($destino, $asunto, $mensaje, "FROM: VDR <info@venezolanaderepuestos.com.ve>");
 

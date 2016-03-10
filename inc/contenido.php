@@ -82,16 +82,32 @@
 			*****************************************************/
 		}else if ($pagina == "afiliacion.php") { ?>
 		  <!-- Begin page content -->
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-4 col-xs-offset-4 formulario">
-            <div class="text-center">
-              <h2>Afiliación</h2>
+      <div class="container-fluid form-color">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-6"><br><br>
+              <img class="img-thumbnail" src="img/cliente-juridico.jpg"/>
             </div>
-                <?php include 'inc/formulario.php';?>
-            
-          </div><!--Fin Contenido-->
-        </div><!--Fin row-->
+            <div class="col-xs-5">
+              <h3>Cliente Juridico</h3><br>
+                  <?php include 'inc/formulario.php';?><br><br><br>
+            </div>
+          </div>
+        </div>
+      </div><br><br>
+
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-5 col-xs-offset-1">
+              <h3>Cliente Natural</h3><br>
+                  <?php include 'inc/formulario2.php';?><br><br>
+            </div>
+            <div class="col-xs-6"><br><br><br>
+              <img class="img-thumbnail" src="img/cliente-natural.jpg"/>
+            </div><!--Fin Contenido-->
+          </div><br><br><!--Fin row-->
+        </div>
       </div><!--Fin container-->
       
     <?php

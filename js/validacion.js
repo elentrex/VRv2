@@ -25,14 +25,14 @@
                 type: "POST",
                 url: "from-afiliacion.php",
                 data: datos,
-                success: function() {
+                /*success: function() {
                     //$('.ajaxgif').hide();
                     $('.msg').text('Mensaje enviado!').addClass('msg_ok').animate({ 'right' : '130px' }, 300);  
                 },
                 error: function() {
                     //$('.ajaxgif').hide();
                     $('.msg').text('Hubo un error!').addClass('msg_error').animate({ 'right' : '130px' }, 300);                 
-                }
+                }*/
             });
             return false;
         }

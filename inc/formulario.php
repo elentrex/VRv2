@@ -45,7 +45,7 @@
     </div>
   <div class="form-group">
     <div class="col-xs-7 col-xs-offset-1">
-      <button class="btn btn-success col-xs-10" id="">Registrar</button>
+      <button class="btn btn-success col-xs-10" id="validacion">Registrar</button>
       <!--<button type="submit" name="enviar" id="enviar" class="btn btn-block btn-success" onclick="ajaxget()">ENVIAR</button>-->
     </div>
   </div>
